@@ -10,9 +10,9 @@ public class Dev {
 
 
 
-    public Dev(){
-        System.out.println("Dev Constructor");
-    }
+//    public Dev(){
+//        System.out.println("Dev Constructor");
+//    }
 
 
 
@@ -22,9 +22,9 @@ public class Dev {
         return com;
     }
 
-    public void setCom(Computer com) {
-        this.com = com;
-    }
+//    public void setCom(Computer com) {
+//        this.com = com;
+//    }
 
     public void build(){
 
