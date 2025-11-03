@@ -16,9 +16,9 @@ public class Dev {
 
 
 
-    public Computer getCom() {
-        return com;
-    }
+//    public Computer getCom() {
+//        return com;
+//    }
 
     public void setCom(Computer com) {
         this.com = com;
