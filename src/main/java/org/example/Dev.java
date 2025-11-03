@@ -1,8 +1,6 @@
 package org.example;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
+
 
 
 public class Dev {
@@ -10,9 +8,9 @@ public class Dev {
 
 
 
-//    public Dev(){
-//        System.out.println("Dev Constructor");
-//    }
+    public Dev(){
+        System.out.println("Dev Constructor");
+    }
 
 
 
@@ -22,9 +20,9 @@ public class Dev {
         return com;
     }
 
-//    public void setCom(Computer com) {
-//        this.com = com;
-//    }
+    public void setCom(Computer com) {
+        this.com = com;
+    }
 
     public void build(){
 
